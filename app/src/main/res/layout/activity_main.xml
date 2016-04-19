@@ -10,7 +10,15 @@
     tools:context="com.androidthing.myapplication.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" android:id="@+id/helloText" android:layout_gravity="right"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button" android:layout_alignBottom="@+id/helloText" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="629dp"
+            android:layout_marginStart="629dp" android:layout_alignParentTop="true"/>
 </RelativeLayout>
